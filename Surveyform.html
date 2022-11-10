@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Veterinary Survey Form</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1 id="title" class="title">Veterinary Survey Form</h1>
+    <p id="description" class="description">Thank you for taking the time to help us improve our service</p>
+    <form id="survey-form" class="survey">
+        <div class:"form-group">
+        <label id="name-label" for="name-label">Name</label>
+        <input id="name" name="name" type="text" placeholder="Enter your Name" required>
+        </div>
+        <div class="form-group">
+         <label id="email-label" for="email-label">Email</label>
+         <input id="email" name="email" type="email" placeholder="Enter your Email" required>
+        </div>
+        <div class="form-group">
+          <label id="number-label" for="number-label">How many pets do you have?<input id="number" name="pets" placeholder="0" type="number" min="1" max="10" required></label>
+        </div>
+        <hr>
+        <div>
+          <p>What kind of pets do you have?</p> 
+        </div>
+          <div>        
+          <label><input id="kindpet" name="kind" 
+          name="dog"
+          type="checkbox"  
+          value="dog"
+          class="inline"
+          >Dog</label>
+          </div>
+          <div>
+          <label><input id="cat"   
+          name="cat"
+          type="checkbox"  
+          value="cat"
+          class="inline">Cat</label>
+          </div>
+          <div>
+          <label><input id="kindpet"  
+          name="turtle"
+          type="checkbox" 
+          value="turtle"
+          class="inline">Turtle</label>
+          </div>
+          <div>
+          <label><input id="kindpet" 
+          name="cat"
+          type="checkbox" 
+          value="cat"
+          class="inline">Cat</label>
+          </div>
+          <div>
+          <label><input id="kindpet" 
+          name="parrot"
+          type="checkbox" 
+          value="parrot"
+          class="inline">Parrot</label>
+          </div>
+          <div>
+          <label><input id="kindpet" 
+          name="lizard"
+          type="checkbox" 
+          value="lizard"
+          class="inline">Lizard</label>
+          </div>
+          <div>
+          <label><input id="kindpet" 
+          name="frog"
+          type="checkbox" 
+          value="frog"
+          class="inline">Frog</label>
+          </div>
+          <div>
+          <label><input id="kindpet" 
+          name="others"
+          type="checkbox" 
+          value="other"
+          class="inline">Others</label>
+        </div>
+          </div>
+          <hr>
+          <div>
+          <p>How often do you take your pet for a checkup?</p>
+          </div>
+          <div>
+          <label><input id="check" 
+          name="check"
+          type="radio"
+          value="once a month"
+          class="inline"
+          required
+          checked
+          >Once a month</label>
+          </div>
+          <div>
+          <label><input id="check"
+          name="check"
+          type="radio"
+          value="once a week"
+          class="inline"
+          >Once a week</label>
+          </div>
+          <div>
+          <label><input id="check"
+          name="check"
+          type="radio"
+          value="never"
+          class="inline"
+          >Never</label>
+          </div>
+          <hr>
+          <div>
+            <p>Would you recommend this service to someone else?</p>
+            <select id="dropdown" required>
+              <option disabled selected value>Select an option</option>
+              <option value="yes">Yes</option>
+              <option value="no">No</option>
+              <option value="probably">Probably</option>
+          </select>
+          </div>
+          <div>
+            <p>Tell us more about you and your pets
+              <span class="clue">(Optional)</span>
+            </p>
+          </div>
+          <div>
+          <textarea placeholder="I like to go for a walk with my dog..." rows="8  " ></textarea>
+          </div>
+          <div>
+          <button id="submit" class="submit" type="submit" value="Submit" name="Submit">Submit</button>
+          </div>
+      </form>
+    </body>
+ </html>

@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+h1, p{
+  text-align: center;
+  margin: 1em auto;
+  color: black;
+}
+
+.title{
+  margin-bottom: 15px;
+  margin-top: 2.5em;
+  color: rgb(241, 250, 238);
+  font-family: 'Roboto', sans-serif;
+  font-size: 3rem;
+}
+
+
+
+body::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    background-image: linear-gradient( 115deg, rgba(75 165 115 / 80%), rgba(136, 136, 206, 0.7) ), url(https://cl.godaddy.com/blog/wp-content/uploads/Dise%C3%B1o-de-p%C3%A1ginas-web-profesionales-para-tiendas-de-mascotas.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.4;
+    color: black;
+    margin: 0;
+}
+
+h1{
+  font-family: sans-serif,;
+  font-weight: 400;
+  line-height: 1.2;
+  display: block; 
+}
+
+
+
+.description{
+  font-family: Lobster;
+  color: rgb(241, 250, 238);
+  font-size: 1em;
+}
+
+form{
+  display: block;
+  margin-top: 1em;
+  margin: auto; 
+  background: rgba(229, 229, 229, 0.8);
+  padding: 1.065em;
+  max-width: 380px;
+  border-radius: 0.75rem;
+  box-sizing: content-box;
+  
+}
+
+
+label {
+  display: block;
+  margin-top: 5px ;
+  padding: inherit;
+  font-size: 1.095em; 
+  font-family: sans-serif, arial;
+  color: rgb(60, 60, 60);
+}
+
+
+input,
+textarea,
+select {
+  margin: 5px 0 0 0;
+  width: 100%;
+  min-height: 2em;
+  max-height: 35em;
+  background-color: #edede9;
+  border-radius: 0.25rem;
+  border: none;
+}
+
+::placeholder{
+  color: #495057;
+  opacity: 1;
+}
+
+p{
+  color: rgb(37, 28, 28);
+  font-size: 1.1em;
+}
+
+div{
+  padding: 1em auto;
+}
+
+input[type="checkbox"], input[type="radio"]{
+  height: 10px;
+  width: 23px;
+  vertical-align: bottom;
+  margin-right: 1em;
+}
+
+hr{
+  height: 8px;
+  width: inherit;
+  margin: auto;
+  background-color: rgb(73, 80, 87);
+  border-radius: 0.25rem;
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+
+.submit{
+  display: block;
+  width: 60%;
+  margin: 1em auto;
+  height: 2em;
+  font-size: 1.1rem;
+  background-color: rgb(231, 231, 231);
+  border: none;
+  min-width: 300px;
+  border-radius: 0.25rem;
+}
